@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+
+    <test name="Signing Up for Miro with Valid Credentials">
+        <classes>
+            <class name="org.miro.testClasses.SignUpWithValidCredentialsTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Signing Up for Miro Without User Details">
+        <classes>
+            <class name="org.miro.testClasses.SignUpWithoutCredentialsTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
