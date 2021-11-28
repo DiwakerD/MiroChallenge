@@ -16,7 +16,7 @@ public abstract class PageClass {
     protected JavascriptExecutor javascriptExecutor;
     private final Properties prop;
 
-    private long implicitwait = 30;
+    private long implicitwait = 40;
 	public static final long PAGELOADTIMEOUT = 40;
 	public static final long EXPLICITWAIT = 8;
     public static final String CONFIG_PROPERTIES = "\\src\\main\\java\\org\\miro\\utilities\\config.properties";
