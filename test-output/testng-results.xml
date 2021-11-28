@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-28T11:36:44 CET" name="All Test Suite" finished-at="2021-11-28T11:37:01 CET" duration-ms="16704">
+  <suite started-at="2021-11-28T12:00:49 CET" name="All Test Suite" finished-at="2021-11-28T12:01:05 CET" duration-ms="16937">
     <groups>
     </groups>
-    <test started-at="2021-11-28T11:36:44 CET" name="Signing Up for Miro Without User Details" finished-at="2021-11-28T11:36:57 CET" duration-ms="13209">
+    <test started-at="2021-11-28T12:00:49 CET" name="Signing Up for Miro Without User Details" finished-at="2021-11-28T12:01:02 CET" duration-ms="13394">
       <class name="org.miro.testClasses.SignUpWithoutCredentialsTest">
-        <test-method is-config="true" signature="setupUtilityAndReport()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:44 CET" name="setupUtilityAndReport" finished-at="2021-11-28T11:36:44 CET" duration-ms="476" status="PASS">
+        <test-method is-config="true" signature="setupUtilityAndReport()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:00:48 CET" name="setupUtilityAndReport" finished-at="2021-11-28T12:00:48 CET" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupUtilityAndReport -->
-        <test-method is-config="true" signature="driverSetup(org.testng.xml.XmlTest)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:44 CET" name="driverSetup" finished-at="2021-11-28T11:36:54 CET" duration-ms="10002" status="PASS">
+        <test-method is-config="true" signature="driverSetup(org.testng.xml.XmlTest)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:00:49 CET" name="driverSetup" finished-at="2021-11-28T12:00:59 CET" duration-ms="10075" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.xml.XmlTest@70ace34a]]>
+                <![CDATA[org.testng.xml.XmlTest@b0b27810]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:54 CET" name="verifyPageTitle" description="Verifying Title Is Visible" finished-at="2021-11-28T11:36:54 CET" duration-ms="185" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:00:59 CET" name="verifyPageTitle" description="Verifying Title Is Visible" finished-at="2021-11-28T12:00:59 CET" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:54 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:55 CET" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:00:59 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:00:59 CET" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyClicksOnGetStartedNow()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:55 CET" name="verifyClicksOnGetStartedNow" description="Verifying User Clicks on Get Started Now" finished-at="2021-11-28T11:36:55 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyPageTitle" duration-ms="217" status="PASS">
+        <test-method signature="verifyClicksOnGetStartedNow()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:00:59 CET" name="verifyClicksOnGetStartedNow" description="Verifying User Clicks on Get Started Now" finished-at="2021-11-28T12:00:59 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyPageTitle" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClicksOnGetStartedNow -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:55 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:55 CET" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:00:59 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:00 CET" duration-ms="548" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyEnterYourEmailErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:55 CET" name="verifyEnterYourEmailErrorIsVisible" description="Validate &#039;Enter Your Email&#039; Error Is Visible" finished-at="2021-11-28T11:36:55 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="105" status="PASS">
+        <test-method signature="verifyEnterYourEmailErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:00 CET" name="verifyEnterYourEmailErrorIsVisible" description="Validate &#039;Enter Your Email&#039; Error Is Visible" finished-at="2021-11-28T12:01:00 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEnterYourEmailErrorIsVisible -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:55 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:56 CET" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:00 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:00 CET" duration-ms="293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyEnterYourNameErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:56 CET" name="verifyEnterYourNameErrorIsVisible" description="Validate &#039;Enter Your Name&#039; Error Is Visible" finished-at="2021-11-28T11:36:56 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="52" status="PASS">
+        <test-method signature="verifyEnterYourNameErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:00 CET" name="verifyEnterYourNameErrorIsVisible" description="Validate &#039;Enter Your Name&#039; Error Is Visible" finished-at="2021-11-28T12:01:00 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEnterYourNameErrorIsVisible -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:56 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:56 CET" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:00 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:01 CET" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyEnterYourPasswordErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:56 CET" name="verifyEnterYourPasswordErrorIsVisible" description="Validate &#039;Enter Your Password&#039; Error Is Visible" finished-at="2021-11-28T11:36:56 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="59" status="PASS">
+        <test-method signature="verifyEnterYourPasswordErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:01 CET" name="verifyEnterYourPasswordErrorIsVisible" description="Validate &#039;Enter Your Password&#039; Error Is Visible" finished-at="2021-11-28T12:01:01 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEnterYourPasswordErrorIsVisible -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:56 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:56 CET" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:01 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:01 CET" duration-ms="253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,11 +97,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyPleaseAgreeWithTermsErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:56 CET" name="verifyPleaseAgreeWithTermsErrorIsVisible" description="Validate &#039;Please Agree With Terms&#039; Error Is Visible" finished-at="2021-11-28T11:36:56 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="61" status="PASS">
+        <test-method signature="verifyPleaseAgreeWithTermsErrorIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:01 CET" name="verifyPleaseAgreeWithTermsErrorIsVisible" description="Validate &#039;Please Agree With Terms&#039; Error Is Visible" finished-at="2021-11-28T12:01:01 CET" depends-on-methods="org.miro.testClasses.SignUpWithoutCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPleaseAgreeWithTermsErrorIsVisible -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:56 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:57 CET" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:01 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:01 CET" duration-ms="224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,34 +112,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method is-config="true" signature="closingDriverSession()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:36:57 CET" name="closingDriverSession" finished-at="2021-11-28T11:36:57 CET" duration-ms="535" status="PASS">
+        <test-method is-config="true" signature="closingDriverSession()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:01 CET" name="closingDriverSession" finished-at="2021-11-28T12:01:02 CET" duration-ms="699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
-        <test-method is-config="true" signature="closingReportSession()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T11:37:01 CET" name="closingReportSession" finished-at="2021-11-28T11:37:01 CET" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="closingReportSession()[pri:0, instance:org.miro.testClasses.SignUpWithoutCredentialsTest@7ef82753]" started-at="2021-11-28T12:01:05 CET" name="closingReportSession" finished-at="2021-11-28T12:01:06 CET" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingReportSession -->
       </class> <!-- org.miro.testClasses.SignUpWithoutCredentialsTest -->
     </test> <!-- Signing Up for Miro Without User Details -->
-    <test started-at="2021-11-28T11:36:44 CET" name="Signing Up for Miro with Valid Credentials" finished-at="2021-11-28T11:37:01 CET" duration-ms="16704">
+    <test started-at="2021-11-28T12:00:49 CET" name="Signing Up for Miro with Valid Credentials" finished-at="2021-11-28T12:01:05 CET" duration-ms="16937">
       <class name="org.miro.testClasses.SignUpWithValidCredentialsTest">
-        <test-method is-config="true" signature="driverSetup(org.testng.xml.XmlTest)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:44 CET" name="driverSetup" finished-at="2021-11-28T11:36:54 CET" duration-ms="10105" status="PASS">
+        <test-method is-config="true" signature="driverSetup(org.testng.xml.XmlTest)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:00:49 CET" name="driverSetup" finished-at="2021-11-28T12:00:59 CET" duration-ms="10076" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.xml.XmlTest@48edfb25]]>
+                <![CDATA[org.testng.xml.XmlTest@88f38feb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:54 CET" name="verifyPageTitle" description="Verifying Title Is Visible" finished-at="2021-11-28T11:36:54 CET" duration-ms="186" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:00:59 CET" name="verifyPageTitle" description="Verifying Title Is Visible" finished-at="2021-11-28T12:00:59 CET" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:54 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:55 CET" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:00:59 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:00:59 CET" duration-ms="304" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,23 +150,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyUserDetailsAreAdded(java.lang.String,java.lang.String)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:55 CET" name="verifyUserDetailsAreAdded" description="Verifying User Name and Email ID is Added" data-provider="getUserData" finished-at="2021-11-28T11:36:55 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyPageTitle" duration-ms="450" status="PASS">
+        <test-method signature="verifyUserDetailsAreAdded(java.lang.String,java.lang.String)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:00 CET" name="verifyUserDetailsAreAdded" description="Verifying User Name and Email ID is Added" data-provider="getUserData" finished-at="2021-11-28T12:01:00 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyPageTitle" duration-ms="641" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Livia]]>
+                <![CDATA[Jayson]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Livia43878@gmail.com]]>
+                <![CDATA[Jayson04325@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserDetailsAreAdded -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:55 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:56 CET" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:00 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:01 CET" duration-ms="272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,11 +177,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyPasswordIsAdded()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:56 CET" name="verifyPasswordIsAdded" description="Verifying User Name and Email ID is Added" finished-at="2021-11-28T11:36:56 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyUserDetailsAreAdded" duration-ms="271" status="PASS">
+        <test-method signature="verifyPasswordIsAdded()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:01 CET" name="verifyPasswordIsAdded" description="Verifying User Name and Email ID is Added" finished-at="2021-11-28T12:01:01 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyUserDetailsAreAdded" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPasswordIsAdded -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:56 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:56 CET" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:01 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:01 CET" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,11 +192,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyUserAgreeToTerms()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:56 CET" name="verifyUserAgreeToTerms" description="Verifying User Selects I Agree to Terms" finished-at="2021-11-28T11:36:56 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyPasswordIsAdded" duration-ms="34" status="PASS">
+        <test-method signature="verifyUserAgreeToTerms()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:01 CET" name="verifyUserAgreeToTerms" description="Verifying User Selects I Agree to Terms" finished-at="2021-11-28T12:01:01 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyPasswordIsAdded" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAgreeToTerms -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:56 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:36:57 CET" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:01 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:02 CET" duration-ms="444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,11 +207,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyClicksOnGetStartedNow()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:36:57 CET" name="verifyClicksOnGetStartedNow" description="Verifying User Clicks on Get Started Now" finished-at="2021-11-28T11:37:00 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyUserAgreeToTerms" duration-ms="3334" status="PASS">
+        <test-method signature="verifyClicksOnGetStartedNow()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:02 CET" name="verifyClicksOnGetStartedNow" description="Verifying User Clicks on Get Started Now" finished-at="2021-11-28T12:01:05 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyUserAgreeToTerms" duration-ms="2726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClicksOnGetStartedNow -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:37:00 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:37:00 CET" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:05 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:05 CET" duration-ms="236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,11 +222,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method signature="verifyCheckYourEmailScreenIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:37:00 CET" name="verifyCheckYourEmailScreenIsVisible" description="Verifying &#039;Check your email Screen is Visible&#039;" finished-at="2021-11-28T11:37:00 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="36" status="PASS">
+        <test-method signature="verifyCheckYourEmailScreenIsVisible()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:05 CET" name="verifyCheckYourEmailScreenIsVisible" description="Verifying &#039;Check your email Screen is Visible&#039;" finished-at="2021-11-28T12:01:05 CET" depends-on-methods="org.miro.testClasses.SignUpWithValidCredentialsTest.verifyClicksOnGetStartedNow" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckYourEmailScreenIsVisible -->
-        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:37:00 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T11:37:00 CET" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="verifyResultsAndAddToReport(org.testng.ITestResult)[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:05 CET" name="verifyResultsAndAddToReport" finished-at="2021-11-28T12:01:05 CET" duration-ms="197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,7 +237,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResultsAndAddToReport -->
-        <test-method is-config="true" signature="closingDriverSession()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T11:37:00 CET" name="closingDriverSession" finished-at="2021-11-28T11:37:01 CET" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="closingDriverSession()[pri:0, instance:org.miro.testClasses.SignUpWithValidCredentialsTest@7b36aa0c]" started-at="2021-11-28T12:01:05 CET" name="closingDriverSession" finished-at="2021-11-28T12:01:05 CET" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
