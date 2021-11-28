@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\kritika\Desktop\grit\Miro-\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithValidCredentialsTest" class="method navigator-link" hash-for-method="verifyCheckYourEmailScreenIsVisible">verifyCheckYourEmailScreenIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithoutCredentialsTest" class="method navigator-link" hash-for-method="verifyClicksOnGetStartedNow">verifyClicksOnGetStartedNow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithValidCredentialsTest" class="method navigator-link" hash-for-method="verifyClicksOnGetStartedNow">verifyClicksOnGetStartedNow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithoutCredentialsTest" class="method navigator-link" hash-for-method="verifyEnterYourEmailErrorIsVisible">verifyEnterYourEmailErrorIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithoutCredentialsTest" class="method navigator-link" hash-for-method="verifyEnterYourNameErrorIsVisible">verifyEnterYourNameErrorIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithoutCredentialsTest" class="method navigator-link" hash-for-method="verifyEnterYourPasswordErrorIsVisible">verifyEnterYourPasswordErrorIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithoutCredentialsTest" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithValidCredentialsTest" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithValidCredentialsTest" class="method navigator-link" hash-for-method="verifyPasswordIsAdded">verifyPasswordIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithoutCredentialsTest" class="method navigator-link" hash-for-method="verifyPleaseAgreeWithTermsErrorIsVisible">verifyPleaseAgreeWithTermsErrorIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithValidCredentialsTest" class="method navigator-link" hash-for-method="verifyUserAgreeToTerms">verifyUserAgreeToTerms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="org.miro.testClasses.SignUpWithValidCredentialsTest" class="method navigator-link" hash-for-method="verifyUserDetailsAreAdded(Livia, Livia43878@gmail.com)">verifyUserDetailsAreAdded(Livia, Livia43878@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClicksOnGetStartedNow">
+                  </a> <!-- verifyClicksOnGetStartedNow -->
+                  <span class="method-name">verifyClicksOnGetStartedNow</span>
+                  <em>
+(Verifying User Clicks on Get Started Now)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnterYourEmailErrorIsVisible">
+                  </a> <!-- verifyEnterYourEmailErrorIsVisible -->
+                  <span class="method-name">verifyEnterYourEmailErrorIsVisible</span>
+                  <em>
+(Validate 'Enter Your Email' Error Is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnterYourNameErrorIsVisible">
+                  </a> <!-- verifyEnterYourNameErrorIsVisible -->
+                  <span class="method-name">verifyEnterYourNameErrorIsVisible</span>
+                  <em>
+(Validate 'Enter Your Name' Error Is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnterYourPasswordErrorIsVisible">
+                  </a> <!-- verifyEnterYourPasswordErrorIsVisible -->
+                  <span class="method-name">verifyEnterYourPasswordErrorIsVisible</span>
+                  <em>
+(Validate 'Enter Your Password' Error Is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <em>
+(Verifying Title Is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPleaseAgreeWithTermsErrorIsVisible">
+                  </a> <!-- verifyPleaseAgreeWithTermsErrorIsVisible -->
+                  <span class="method-name">verifyPleaseAgreeWithTermsErrorIsVisible</span>
+                  <em>
+(Validate 'Please Agree With Terms' Error Is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckYourEmailScreenIsVisible">
+                  </a> <!-- verifyCheckYourEmailScreenIsVisible -->
+                  <span class="method-name">verifyCheckYourEmailScreenIsVisible</span>
+                  <em>
+(Verifying 'Check your email Screen is Visible')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClicksOnGetStartedNow">
+                  </a> <!-- verifyClicksOnGetStartedNow -->
+                  <span class="method-name">verifyClicksOnGetStartedNow</span>
+                  <em>
+(Verifying User Clicks on Get Started Now)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <em>
+(Verifying Title Is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPasswordIsAdded">
+                  </a> <!-- verifyPasswordIsAdded -->
+                  <span class="method-name">verifyPasswordIsAdded</span>
+                  <em>
+(Verifying User Name and Email ID is Added)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserAgreeToTerms">
+                  </a> <!-- verifyUserAgreeToTerms -->
+                  <span class="method-name">verifyUserAgreeToTerms</span>
+                  <em>
+(Verifying User Selects I Agree to Terms)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserDetailsAreAdded(Livia, Livia43878@gmail.com)">
+                  </a> <!-- verifyUserDetailsAreAdded(Livia, Livia43878@gmail.com) -->
+                  <span class="method-name">verifyUserDetailsAreAdded</span>
+                  <span class="parameters">(Livia, Livia43878@gmail.com)</span>
+                  <em>
+(Verifying User Name and Email ID is Added)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kritika\Desktop\grit\Miro-\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Signing Up for Miro with Valid Credentials&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.miro.testClasses.SignUpWithValidCredentialsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signing Up for Miro with Valid Credentials --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Signing Up for Miro Without User Details&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.miro.testClasses.SignUpWithoutCredentialsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signing Up for Miro Without User Details --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Signing Up for Miro Without User Details&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.miro.testClasses.SignUpWithoutCredentialsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signing Up for Miro Without User Details --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Signing Up for Miro with Valid Credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Signing Up for Miro Without User Details (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Signing Up for Miro Without User Details (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyClicksOnGetStartedNow')
+data.setCell(0, 2, 'org.miro.testClasses.SignUpWithValidCredentialsTest')
+data.setCell(0, 3, 3334);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyUserDetailsAreAdded')
+data.setCell(1, 2, 'org.miro.testClasses.SignUpWithValidCredentialsTest')
+data.setCell(1, 3, 450);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyPasswordIsAdded')
+data.setCell(2, 2, 'org.miro.testClasses.SignUpWithValidCredentialsTest')
+data.setCell(2, 3, 271);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyClicksOnGetStartedNow')
+data.setCell(3, 2, 'org.miro.testClasses.SignUpWithoutCredentialsTest')
+data.setCell(3, 3, 217);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyPageTitle')
+data.setCell(4, 2, 'org.miro.testClasses.SignUpWithValidCredentialsTest')
+data.setCell(4, 3, 186);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyPageTitle')
+data.setCell(5, 2, 'org.miro.testClasses.SignUpWithoutCredentialsTest')
+data.setCell(5, 3, 185);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyEnterYourEmailErrorIsVisible')
+data.setCell(6, 2, 'org.miro.testClasses.SignUpWithoutCredentialsTest')
+data.setCell(6, 3, 105);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyPleaseAgreeWithTermsErrorIsVisible')
+data.setCell(7, 2, 'org.miro.testClasses.SignUpWithoutCredentialsTest')
+data.setCell(7, 3, 61);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyEnterYourPasswordErrorIsVisible')
+data.setCell(8, 2, 'org.miro.testClasses.SignUpWithoutCredentialsTest')
+data.setCell(8, 3, 59);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyEnterYourNameErrorIsVisible')
+data.setCell(9, 2, 'org.miro.testClasses.SignUpWithoutCredentialsTest')
+data.setCell(9, 3, 52);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCheckYourEmailScreenIsVisible')
+data.setCell(10, 2, 'org.miro.testClasses.SignUpWithValidCredentialsTest')
+data.setCell(10, 3, 36);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyUserAgreeToTerms')
+data.setCell(11, 2, 'org.miro.testClasses.SignUpWithValidCredentialsTest')
+data.setCell(11, 3, 34);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupUtilityAndReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">driverSetup(org.testng.xml.XmlTest@48edfb25)</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">driverSetup(org.testng.xml.XmlTest@70ace34a)</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">10606 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">10606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyPageTitle status=SUCCESS method=SignUpWithoutCredentialsTest.verifyPageTitle(...)</span>
+                <span class="method-start">10796 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyPageTitle status=SUCCESS method=SignUpWithValidCredentialsTest.verifyPageTitl...)</span>
+                <span class="method-start">10798 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyClicksOnGetStartedNow</span>
+                <span class="method-start">11097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyClicksOnGetStartedNow status=SUCCESS method=SignUpWithoutCredentialsTest.veri...)</span>
+                <span class="method-start">11317 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUserDetailsAreAdded(Livia, Livia43878@gmail.com)</span>
+                <span class="method-start">11479 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyEnterYourEmailErrorIsVisible</span>
+                <span class="method-start">11796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyEnterYourEmailErrorIsVisible status=SUCCESS method=SignUpWithoutCredentialsTe...)</span>
+                <span class="method-start">11903 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyUserDetailsAreAdded status=SUCCESS method=SignUpWithValidCredentialsTest.veri...)</span>
+                <span class="method-start">11932 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyEnterYourNameErrorIsVisible</span>
+                <span class="method-start">12172 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPasswordIsAdded</span>
+                <span class="method-start">12184 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyEnterYourNameErrorIsVisible status=SUCCESS method=SignUpWithoutCredentialsTes...)</span>
+                <span class="method-start">12226 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyPasswordIsAdded status=SUCCESS method=SignUpWithValidCredentialsTest.verifyPa...)</span>
+                <span class="method-start">12457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyEnterYourPasswordErrorIsVisible</span>
+                <span class="method-start">12520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyEnterYourPasswordErrorIsVisible status=SUCCESS method=SignUpWithoutCredential...)</span>
+                <span class="method-start">12582 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUserAgreeToTerms</span>
+                <span class="method-start">12705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyUserAgreeToTerms status=SUCCESS method=SignUpWithValidCredentialsTest.verifyU...)</span>
+                <span class="method-start">12740 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPleaseAgreeWithTermsErrorIsVisible</span>
+                <span class="method-start">12829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyPleaseAgreeWithTermsErrorIsVisible status=SUCCESS method=SignUpWithoutCredent...)</span>
+                <span class="method-start">12891 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyClicksOnGetStartedNow</span>
+                <span class="method-start">13057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closingDriverSession</span>
+                <span class="method-start">13155 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithValidCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyClicksOnGetStartedNow status=SUCCESS method=SignUpWithValidCredentialsTest.ve...)</span>
+                <span class="method-start">16393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckYourEmailScreenIsVisible</span>
+                <span class="method-start">16606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">verifyResultsAndAddToReport([TestResult name=verifyCheckYourEmailScreenIsVisible status=SUCCESS method=SignUpWithValidCredential...)</span>
+                <span class="method-start">16643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closingDriverSession</span>
+                <span class="method-start">16829 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.miro.testClasses.SignUpWithoutCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingReportSession</span>
+                <span class="method-start">17193 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
