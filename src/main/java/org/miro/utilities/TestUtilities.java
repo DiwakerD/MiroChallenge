@@ -35,7 +35,7 @@ public class TestUtilities  {
 		html.config().setTheme(Theme.DARK);
 		ExtentReports extent=new ExtentReports();
 		extent.attachReporter(html);
-		extent.setSystemInfo("Project","Miro QA Assignment");
+		extent.setSystemInfo("Project","Genaral QA Assignment");
 		extent.setSystemInfo("Environment", "Miro Dashboard");
 		extent.setSystemInfo("Team","Diwaker Dutta");
 		return extent;
